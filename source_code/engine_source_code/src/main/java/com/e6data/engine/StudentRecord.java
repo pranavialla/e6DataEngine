@@ -4,7 +4,7 @@ package com.e6data.engine;
  * Student Record - Data Transfer Object
  * Follows SRP
  */
-class StudentRecord implements Comparable<StudentRecord> {
+public class StudentRecord implements Comparable<StudentRecord> {
     final String studentId;
     final int batchYear;
     final int universityRanking;
