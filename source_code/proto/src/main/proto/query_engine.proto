@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.e6data.engine";
+option java_outer_classname = "QueryEngineProto";
+
+package queryengine;
+
+service QueryEngine {
+  rpc ProcessTask(TaskRequest) returns (TaskResponse);
+}
+
+message TaskRequest {
+  repeated string file_paths = 1;
+}
+
+message TaskResponse {
+  repeated StudentRecord records = 1;
+}
+
+message StudentRecord {
+  string student_id = 1;
+  int32 batch_year = 2;
+  int32 university_ranking = 3;
+  int32 batch_ranking = 4;
+}
