@@ -1,2 +1,16 @@
-com/e6data/engine/DriverClient$Record.class
+com/e6data/engine/FileOutputWriter.class
+com/e6data/engine/EngineTaskExecutor.class
+com/e6data/engine/FileDistributionStrategy.class
+com/e6data/engine/CsvFileDiscoveryService.class
+com/e6data/engine/GrpcEngineTaskExecutor.class
+com/e6data/engine/FileDiscoveryService.class
 com/e6data/engine/DriverClient.class
+com/e6data/engine/EngineCoordinator.class
+com/e6data/engine/GrpcChannelFactory.class
+com/e6data/engine/RoundRobinDistributionStrategy.class
+com/e6data/engine/EngineChannelFactory.class
+com/e6data/engine/RecordMerger.class
+com/e6data/engine/ParallelEngineCoordinator.class
+com/e6data/engine/MergeSortRecordMerger.class
+com/e6data/engine/Record.class
+com/e6data/engine/OutputWriter.class
