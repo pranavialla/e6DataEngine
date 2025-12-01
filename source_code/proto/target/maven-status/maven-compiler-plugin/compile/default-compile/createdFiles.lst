@@ -1,11 +1,9 @@
 com/e6data/engine/QueryEngineGrpc$QueryEngineBaseDescriptorSupplier.class
 com/e6data/engine/TaskRequestOrBuilder.class
-com/e6data/engine/StudentRecord$1.class
 com/e6data/engine/TaskResponse.class
 com/e6data/engine/TaskResponseOrBuilder.class
 com/e6data/engine/QueryEngineGrpc$3.class
 com/e6data/engine/QueryEngineGrpc$QueryEngineMethodDescriptorSupplier.class
-com/e6data/engine/StudentRecord$Builder.class
 com/e6data/engine/QueryEngineGrpc$MethodHandlers.class
 com/e6data/engine/QueryEngineGrpc$1.class
 com/e6data/engine/QueryEngineGrpc.class
@@ -17,9 +15,7 @@ com/e6data/engine/TaskResponse$Builder.class
 com/e6data/engine/TaskRequest.class
 com/e6data/engine/TaskRequest$Builder.class
 com/e6data/engine/QueryEngineGrpc$QueryEngineFileDescriptorSupplier.class
-com/e6data/engine/StudentRecord.class
 com/e6data/engine/QueryEngineGrpc$QueryEngineFutureStub.class
-com/e6data/engine/QueryEngineProto.class
 query_engine.proto
 com/e6data/engine/TaskResponse$1.class
 com/e6data/engine/QueryEngineGrpc$2.class

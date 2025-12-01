@@ -23,7 +23,7 @@
               <finalName>driver</finalName>
               <transformers>
                 <transformer>
-                  <mainClass>com.e6data.engine.DriverClient</mainClass>
+                  <mainClass>com.e6data.driver.DriverClient</mainClass>
                 </transformer>
                 <transformer />
               </transformers>
