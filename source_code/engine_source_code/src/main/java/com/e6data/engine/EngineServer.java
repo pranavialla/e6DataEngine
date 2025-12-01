@@ -1,5 +1,4 @@
-package main.java.com.e6data.engine;
-
+package com.e6data.engine;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;

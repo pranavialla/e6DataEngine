@@ -1,4 +1,4 @@
-package main.java.com.e6data.engine;
+package com.e6data.engine;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
@@ -172,9 +172,8 @@ public class DriverClient {
 
     private void writeOutput(List<Record> records) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(OUTPUT_FILE))) {
-            writer.write("student_id\n");
             for (int i = 0; i < records.size(); i++) {
-                writer.write((i + 1) + " " + records.get(i).studentId + "\n");
+                writer.write(records.get(i).studentId + "\n");
             }
         }
     }

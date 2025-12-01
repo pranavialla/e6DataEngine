@@ -1,1 +1,3 @@
-main/java/com/e6data/engine/EngineServer.class
+com/e6data/engine/EngineServer$StudentRecord.class
+com/e6data/engine/EngineServer$QueryEngineService.class
+com/e6data/engine/EngineServer.class
